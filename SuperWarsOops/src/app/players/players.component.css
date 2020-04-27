@@ -1,0 +1,58 @@
+.container {
+  display: grid;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  grid-template-columns: 45% 10% 45%;
+  /* align-items: center; */
+  justify-items: center;
+  /* width: auto; */
+  /* overflow-wrap: break-word; */
+  overflow: hidden;
+}
+
+#hero,
+#villain {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  text-align: center;
+  /* border: 2px solid blue; */
+  grid-gap: 10px;
+  height: 100%;
+  padding-left: 200px;
+  padding-right: 200px;
+  overflow: hidden;
+}
+
+/* #hero {
+    justify-items: right;
+  } */
+
+
+.player {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid gray;
+  padding: 10px;
+  border-radius: 10%;
+  /* margin: 10px; */
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+  width: 120px;
+  height: 200px;
+  overflow: hidden;
+}
+
+.name {
+  font-size: 16px;
+}
+
+.strength {
+  font-size: 30px;
+}
+
+.score {
+  padding-top: 20px;
+  font-size: 40px;
+  width: 150px;
+  text-align: center;
+  /* border: 2px solid black; */
+}
